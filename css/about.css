@@ -66,7 +66,6 @@
 
 .team__member{
   background: var(--color-bg2);
-  padding: 2rem;
   border: 1px solid transparent;
   border-radius: 1rem;
   transition: var(--transition);
@@ -152,7 +151,7 @@
   }
 
   .team__container{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.7rem;
   }
 

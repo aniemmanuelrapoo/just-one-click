@@ -9,7 +9,7 @@
 }
 
 :root {
-  --color-primary: #ff5500;
+  --color-primary: #ff1493;
   --color-success: #00bf8e;
   --color-warning: #f7c94b;
   --color-danger: #f75842;
@@ -251,14 +251,13 @@ header{
 }
 
 .template{
-  background: var(--color-bg1);
+  background: transparent;
   text-align: center;
   border: 1px solid transparent;
   transition: var(--transition);
 }
 
 .template:hover{
-  background-color: transparent;
   border-color: var(--color-primary);
 }
 
@@ -370,7 +369,7 @@ footer{
 
 .footer__container{
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 5rem;
 }
 
